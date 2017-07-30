@@ -1,52 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Test Ajax Page</title>
+<title>Home page Emilio Rafael Olvera Ochoa</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style/style.css"/>
+<link rel="stylesheet" type="text/css" href="style/embebedstyle.css"/>
+<script type="text/javascript" src="js/Funciones.js"></script>
 </head>
-<body>
-
-
-  <h1>
-    Test Ajax Page
-  </h1>
-
-  A simple web page that can be used to test scraping libraries.
-
-
-  <div id="interval-test">
-    <h3>Set Timeout Test</h3>
-    <em>'BUBBLES' should appear in div selector: <strong>"#setTimeoutContent"</strong> below after 2 seconds:</em>
+<body onLoad="cargarAjax(0,'embebidos/principal.html','contenedorAjax'); return false;">
+<div class="content">
+  <div id="top">
+    <div class="padding"> <a href="index.html" align="right" ><img src="images/ingles.png"  width="20px"/></a></div>
   </div>
-
-  <div id="form-test">
-    <h3>Form Test</h3>
-    <em>Username id="#form-username", password selector: <strong>"#form-password"</strong></em>
-    <br>
-
-    <form>
-      Username:<br>
-      <input id="form-username" type="text">
-      <br>
-      Password:<br>
-      <input id="form-password" type="password">
-    </form>
+  <div id="header">
+    <div class="title">
+	  <br/>
+      <h1>Emilio OLVERA </h1>
+	  </div>
   </div>
+  <div id="subheader">
+    <div id="menu">
+      <ul>
+        <li ><a href="#" onClick="cargarAjax(0,'embebidos/principal.html','contenedorAjax');return false;">Home</a></li>
+        <li ><a href="#" onClick="cargarAjax(1,'embebidos/investigacion.html','contenedorAjax');return false;">Research</a></li>
+        <li ><a href="#" onClick="cargarAjax(2,'embebidos/publicaciones.html','contenedorAjax');return false;">Publications</a></li>
+        <li ><a href="#" onClick="cargarAjax(3,'embebidos/enlaces.html','contenedorAjax');return false;">Link</a></li>
+	</ul>
+    </div>
+  </div>
+  <div id="main">
+    <div class="left_side">
+	
+	<div id="contenedorAjax"></div>
 
-  <div id="dropdown-test">
-    <h3>Dropdown test</h3>
-    <em>Dropdown has id="#dropdown"</em>
-    <br>
-
-    <select id='dropdown'>
-      <option value="index0">index0</option>
-      <option value="index1">index1</option>
-      <option value="index2">index2</option>
-      <option value="index3">index3</option>
-    </select>
-    <br>
-    <em>Selected Index will show in span selector: <strong>"#dropdown-selected-result"</strong> below:</em>
-    <br>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="padding"> Copyright &copy; Free CSS template </div>
+  </div>
+</div>
+</body>
+</html>
     <span id="dropdown-selected-result"></span>
   </div>
   <script src="assets/ajaxScript.js"></script>
