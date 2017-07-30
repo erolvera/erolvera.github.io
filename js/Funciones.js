@@ -5,7 +5,7 @@ var loaderGif = "<center><p style='font-size:10pt;display:inline-block; text-ali
 
 /*** no editar ***/
 var cargarObjetos="";
-var rootdomain="http://"+window.location.hostname;
+var rootdomain="https://"+window.location.hostname;
 var cacheParam="";
 
 function cargarAjax(identificador,url,divAjax){
