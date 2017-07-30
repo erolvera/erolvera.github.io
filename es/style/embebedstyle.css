@@ -1,0 +1,95 @@
+/*Agregado por leo*/
+#contenido {font: 120% Sans-Serif; text-align:justify; padding: 10px 0px 0px 0px;}
+
+
+
+
+/* MAIN
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+#main { background: #FFF; width: 760px; margin: 0 20px 0 20px; color: #808080; }  
+#main .right_side { float: right;
+	padding:0px 0 0 10px; margin:0;
+	background-color: #FFF;
+	width: 0px; 
+}
+
+#main .right_side .hitems { margin: 0; 	padding: 0; }
+#main .right_side .hitems ul { 
+	margin: 5px 0 5px 0; 
+	padding : 0; 
+	color: #a90000;
+	list-style-image: url(../images/arrow.gif);
+}
+	
+#main .right_side .hitems li { 
+	margin: 0 0 2px 20px;
+	padding: 0 0 0 0px;
+	color: #555;
+	 
+}
+
+#main .left_side { float: left; width: 650px; background: #FFF; padding:15px 15px 0 55px; margin:0; }
+#main h3 {  font: 85% Arial, Sans-Serif; margin: 0 0 10px 0px; padding: 0; color: #5f5f5f; background: inherit; 
+			border-bottom: 1px solid #036CB4;
+}
+
+
+#main .left_side p {font: 120% Sans-Serif; text-align:justify; padding: 10px 0px 0px 0px;}
+
+
+
+
+#main .box  {	background: #efefef; padding: 5px; border: 1px solid #ccc;}
+
+#main .right_side ul { 
+	margin: 5px 0 5px 0; 
+	padding : 0; 
+	list-style : none; 
+	border-bottom: 0px solid #eee; 
+	list-style-type: square;
+	color: #a90000;
+}
+	
+#main .right_side li { 
+	margin: 0 0 2px 15px;
+	padding: 0 0 0 0px;
+	color: #555;
+}
+
+#main .right_side  .padding {
+	margin: 0 0 20px 15px;
+	padding: 0 0 0 0px;
+	color: #555;
+}
+
+
+
+.embebido {
+	width:650px;
+	font: 120% Sans-Serif; 
+	text-align:justify;	
+}
+
+
+.header{
+	background-color: #DCDCDC;
+	text-align: left;
+	color: #4682B4;
+	text-transform: uppercase; 
+	font-weight: bold;
+	width:760px;
+	font-family: helvetica;
+}
+
+
+.impar{
+	background-color: #FFFFFF;
+}
+
+.embebido th{
+	background-color:#4682B4;
+	text-align: right;
+	color: #FFFFFF;
+	text-transform: uppercase; 
+	font-family: sans-serif;
+}

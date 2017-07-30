@@ -1,0 +1,49 @@
+  <h2>Contact</h2>
+  <h3>&nbsp;</h3>
+	<table id="contenido">
+		<tr><td width="1%"></td>
+			<td width="30%">
+				<img src="images/120928-123203escaled.jpg" alt="" />
+			</td>
+			<td></td>
+			<td width="60%">
+			<br />
+				PhD candidate<br />
+				Universidad Autonoma Metropolitana-Iztapalapa<br />
+				WiNetSys research group<br />
+		 
+				San Rafael Atlixco No. 186,<br /> 
+				Col. Vicentina, Iztapalapa, 09340,<br /> 
+				México.<br />
+				
+				Tel : +52 55 5804 46 00  ext. 2003<br />
+				Email : erolvera@xanum.uam.mx<br /><br />
+			</td>
+		</tr>
+	</table>
+	<br /><br />
+	<h2>About me</h2>
+    <h3>&nbsp;</h3>	
+	<p>In september 2008, I got the Bachelor's degree in Electronics and Communications Engineering  and  in may 2012, I got a Master's degree in Sciences and Information Technologies, both from the <a href="http://www.iztapalapa.uam.mx/" target="_blank">Universidad Autónoma Metropolitana - Iztapalapa</a> (UAM-Iztapalapa) in Mexico City.<br/><br/>
+
+From october 2011 to date,  I am part of the <a href="http://www.electrica.cbiuami.org/" target="_blank">Department of Electrical Engineering</a> of UAM-Iztapalapa as engineering assistant.<br/><br/>
+
+Since january 2013, I am PhD student in Information Technologies program at UAM-Iztapalapa in Mexico City. My thesis advisor is  <a href="http://victor.ramos.free.fr/index.html" target="_blank">Dr. Víctor Manuel Ramos Ramos</a>. The approach of this thesis investigation is the design of algorithms for medium access control for the IEEE 802.11 standard in the presence of heterogenous traﬃc and network interfaces.<br/><br/><br />
+	  
+	<h2>Wireless Networking Systems Research Group</h2>
+    <h3>&nbsp;</h3>	
+
+	<table id="contenido">
+		<tr><td width="1%"></td>
+			<td width="30%">
+				<img src="images/wsrg-logo.png" width="180px" />
+			</td>
+			<td></td>
+			<td width="60%">
+			Led by <b>Dr. Victor Ramos</b>, the Wireless Networking Systems (WiNetSys) is a graduate research group intended to develop, implement, and analyze the performance of medium access mechanisms for a wide span of wireless systems based on the IEEE 802.11, such as heterogeneous radio access technologies, vehicular and mesh networks, as well as Radio Frequency 
+			IDentification systems (RFID) under the EPCglobal specifications.
+			</td>
+		</tr>
+	</table>
+	<br/><br/>
+    <h3>&nbsp;</h3>	
