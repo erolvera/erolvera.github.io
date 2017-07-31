@@ -28,7 +28,7 @@ function cargarAjax(identificador,url,divAjax){
 		cacheParam=(url.indexOf("?")!=-1)? "&"+ new Date().getTime() : "?"+ new Date().getTime();
 	}	
 
-	contenidoAjax.open('POST', url+cacheParam, true);
+	contenidoAjax.open('GET', url+cacheParam, true);
 	contenidoAjax.send(null);
 
 /*	var list=document.getElementsByTagName("UL")[0]
