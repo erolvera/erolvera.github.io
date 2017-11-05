@@ -1,3 +1,4 @@
+//http://www.eslomas.com/2012/02/jquery-para-abrir-enlaces-en-nueva-ventana-sin-target-_blank/
 <script type="text/javascript">
 $(document).ready(function(){
    $("a.external").live('click', function() {
