@@ -6,6 +6,48 @@
 <link rel="stylesheet" type="text/css" href="style/style.css"/>
 <link rel="stylesheet" type="text/css" href="style/embebedstyle.css"/>
 <script type="text/javascript" src="js/Funciones.js"></script>
+	
+				
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+	
+			
 </head>
 <body onLoad="cargarAjax(0,'embebidos/principal.html','contenedorAjax'); return false;">
 <div class="content">
@@ -20,7 +62,7 @@
   </div>
   <div id="subheader">
     <div id="menu">
-      <ul>
+      <ul  class="nav">
         <li ><a href="#" onClick="cargarAjax(0,'embebidos/principal.html','contenedorAjax');return false;">Home</a></li>
         <li ><a href="#" onClick="cargarAjax(1,'embebidos/investigacion.html','contenedorAjax');return false;">Research</a></li>
         <li ><a href="#" onClick="cargarAjax(2,'embebidos/publicaciones.html','contenedorAjax');return false;">Publications</a></li>
